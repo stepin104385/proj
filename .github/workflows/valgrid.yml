@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C  proj
-        valgrind ./proj.out
+        valgrind ./proj
